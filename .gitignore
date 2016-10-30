@@ -1,0 +1,4 @@
+./src/cpalloc.o
+./src/cpalloc.so
+./src/pg_gsl.o
+./src/pg_gsl.so
