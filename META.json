@@ -18,8 +18,8 @@
        "abstract": "GNU wrapper functions for PostgreSQL - library"
      },
     "repository": {
-	"url": "git://github.com/?/pg_gsl.git",
-	"web": "http://github.com/?/pg_gsl/",
+	"url": "https://github.com/ferndalehall/pg_gsl.git",
+	"web": "https://github.com/ferndalehall/pg_gsl",
 	"type": "git"
 	}
 }
