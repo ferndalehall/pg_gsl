@@ -3,7 +3,7 @@
    "abstract": "Wrapper functions for the GNU Scientific Libraries",
    "version": "0.0.1",
    "maintainer": "John Pickford<pg_gsl@ferndale-hall.co.uk>",
-   "license": "GPL_3",
+   "license": "gpl_3",
    "tags": ["gsl", "scientific functions", "fft", "analytics"],
    "release_status": "unstable",
    "meta-spec": {
@@ -17,10 +17,12 @@
        "version": "0.0.1",
        "abstract": "GNU wrapper functions for PostgreSQL - library"
      },
-    "repository": {
-	"url": "https://github.com/ferndalehall/pg_gsl.git",
-	"web": "https://github.com/ferndalehall/pg_gsl",
-	"type": "git"
-	}
+    "resources": {
+        "repository": {
+	    "url": "https://github.com/ferndalehall/pg_gsl.git",
+	    "web": "https://github.com/ferndalehall/pg_gsl",
+	    "type": "git"
+	    }
+        }
     }
 }
