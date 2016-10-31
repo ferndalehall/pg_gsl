@@ -5,7 +5,7 @@
    "maintainer": "John Pickford<pg_gsl@ferndale-hall.co.uk>",
    "license": "GPL_3",
    "tags": ["gsl", "scientific functions", "fft", "analytics"],
-   "release_status": "unstable"
+   "release_status": "unstable",
    "meta-spec": {
       "version": "1.0.0",
       "url": "http://pgxn.org/meta/spec.txt"
@@ -21,6 +21,5 @@
 	"url": "git://github.com/?/pg_gsl.git",
 	"web": "http://github.com/?/pg_gsl/",
 	"type": "git"
-
 	}
 }
