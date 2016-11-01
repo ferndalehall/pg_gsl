@@ -18,9 +18,9 @@
  *
  */
 
- /* Call the pg_x_gsl_version() function */
+ /* Call the pg_gsl_x_version() function */
 
-select pg_x_gsl_version();
+select pg_gsl_x_version();
 
 /*
  * Call the transform with a square wave, the same as the fft example

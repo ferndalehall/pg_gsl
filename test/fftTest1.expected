@@ -18,7 +18,7 @@
 #
 
 
- pg_x_gsl_version 
+ pg_gsl_x_version 
 ------------------
  0.0.1-dirty
 (1 row)

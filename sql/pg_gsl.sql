@@ -13,9 +13,9 @@
  *
  */
 
-CREATE OR REPLACE FUNCTION pg_x_gsl_version()
+CREATE OR REPLACE FUNCTION pg_gsl_x_version()
 RETURNS text
-AS 'pg_gsl','pg_x_gsl_version'
+AS 'pg_gsl','pg_gsl_x_version'
 LANGUAGE C IMMUTABLE STRICT;
 
 CREATE OR REPLACE FUNCTION pg_gsl_fft_real_transform(double precision[])

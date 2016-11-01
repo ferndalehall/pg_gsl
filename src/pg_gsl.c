@@ -40,11 +40,11 @@ PG_MODULE_MAGIC;
  * Function to return the version of this postresql extension
  */
 
-PG_FUNCTION_INFO_V1(pg_x_gsl_version);
-Datum pg_x_gsl_version(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(pg_gsl_x_version);
+Datum pg_gsl_x_version(PG_FUNCTION_ARGS);
 
 Datum
-pg_x_gsl_version(PG_FUNCTION_ARGS)
+pg_gsl_x_version(PG_FUNCTION_ARGS)
 {
 	int32 newSize;
     text *newText;
