@@ -67,7 +67,7 @@ $$ language plpgsql;
 
 /* To create the "+" operator to add 2 real arrays */
 
-drop OPERATOR + (double precision[],
+DROP OPERATOR IF EXISTS + (double precision[],
     double precision[]
 );
 CREATE OPERATOR + (
@@ -94,7 +94,7 @@ $$ language plpgsql;
 
 /* To create the "*" operator to multiply an array by a scalar */
 
-drop OPERATOR * (double precision,
+DROP OPERATOR IF EXISTS * (double precision,
     double precision[]
 );
 CREATE OPERATOR * (
