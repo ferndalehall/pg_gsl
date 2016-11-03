@@ -41,7 +41,7 @@ set zlabel ""
 unset logscale x
 unset logscale y
 unset logscale z
-set term svg size 300,240
+set term svg size 300,240 font "Arial,10"
 set xtics  20
 plot [:] [-5.0:5.0] [:] '$$.$name.data' using 1:2  with lines     title "$name "
 !
@@ -67,7 +67,7 @@ set zlabel ""
 unset logscale x
 unset logscale y
 unset logscale z
-set term svg size 300,240
+set term svg size 300,240 font "Arial,10"
 set xtics  10
 plot [:] [0.0:1.0] [:] '$$.$name.data' using 1:2  with lines     title "$name "
 !
@@ -83,9 +83,9 @@ set zlabel ""
 unset logscale x
 unset logscale y
 unset logscale z
-set term svg size 300,240
+set term svg size 300,240 font "Arial,10"
 set xtics  20
-plot [:] [-5.0:5.0] [:] '$$.signal.data' using 1:2  with lines     title "signal " , '$$.filtered75.data' using 1:2  with lines  lc rgb '#fde725'   title "reconstructed "
+plot [:] [-5.0:5.0] [:] '$$.signal.data' using 1:2  with lines     title "signal " , '$$.filtered75.data' using 1:2  with lines  lc rgb '#4169e1'   title "reconstructed "
 !
 ) | gnuplot > signal+filtered75.svg
 
