@@ -29,9 +29,7 @@ PG_CONFIG    = pg_config
 PG91         = $(shell $(PG_CONFIG) --version | grep -qE " 8\\.| 9\\.0" && echo no || echo yes)
 PKGLIBDIR    = $(shell $(PG_CONFIG) --pkglibdir)
 
-GIT_VERSION  = $(shell git describe --abbrev=4 --dirty --always --tags)
-
-override CFLAGS +="-DPG_GSL_VERSION=\"$(GIT_VERSION)\""
+override CFLAGS +="-DPG_GSL_VERSION=\"0.0.1\""
 
 ifeq ($(PG91),yes)
 all: sql/$(EXTENSION)--$(EXTVERSION).sql
