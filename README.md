@@ -14,7 +14,7 @@
 [//]: # ( * You should have received a copy of the GNU General Public License)
 [//]: # ( * along with pg_gsl.  If not, see) <http://www.gnu.org/licenses/>.)
 
-pg_gsl 0.0.1
+pg_gsl 0.0.2
 ============
 
 This Postgresql extension primarily provides wrapper functions for functions

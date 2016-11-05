@@ -29,7 +29,7 @@ PG_CONFIG    = pg_config
 PG91         = $(shell $(PG_CONFIG) --version | grep -qE " 8\\.| 9\\.0" && echo no || echo yes)
 PKGLIBDIR    = $(shell $(PG_CONFIG) --pkglibdir)
 
-override CFLAGS +="-DPG_GSL_VERSION=\"0.0.1\""
+override CFLAGS +="-DPG_GSL_VERSION=\"0.0.2\""
 
 ifeq ($(PG91),yes)
 all: sql/$(EXTENSION)--$(EXTVERSION).sql

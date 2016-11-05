@@ -1,7 +1,7 @@
 {
    "name": "pg_gsl",
    "abstract": "PostgreSQL wrapper functions for the GNU Scientific Library",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "maintainer": "John Pickford<pg_gsl@ferndale-hall.co.uk>",
    "license": "gpl_3",
    "tags": [
@@ -10,7 +10,7 @@
 	"fft",
 	"analytics"
 	],
-   "release_status": "unstable",
+   "release_status": "stable",
    "meta-spec": {
 	"version": "1.0.0",
 	"url": "http://pgxn.org/meta/spec.txt"
@@ -19,7 +19,7 @@
      "pg_gsl": {
 	"file": "sql/pg_gsl.sql",
 	"docfile": "README.md",
-	"version": "0.0.1"
+	"version": "0.0.2"
 	}
      },
     "resources": {

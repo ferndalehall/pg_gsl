@@ -18,7 +18,7 @@
 #
 
 comment = 'GNU GSL library wrapper'
-default_version = '0.0.1'
+default_version = '0.0.2'
 module_pathname = '$libdir/pg_gsl.so'
 relocatable = true
 
